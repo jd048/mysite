@@ -1,0 +1,47 @@
+
+
+
+      <div class="row" >
+        
+          <div *ngFor="let post of posts" class="col s12 m6 l6">
+                
+            <div class="card">
+                <div class="card-image">
+                    <img  [src]='post.better_featured_image.source_url'>
+                  </div>
+        
+                  <h5 class="center-align" (click)="selectPost(post.slug)">{{post.title.rendered}}</h5>
+                  
+                  <a href="#!user"><img class="circle" src="https://mannybernard.net/wp-content/uploads/2018/01/self.png"  height="35"   ></a>
+                    <a href="#!name"><span class="black-text name">Emmanuel Bernard </span>    </a>  <p class="right"> {{post.date | date }}</p>   
+                  <div class="card-content">
+                    
+                      <p>    {{ post.acf.disc  }} .......<a class="card-action" (click)="selectPost(post.slug)">Read More</a> </p>
+                      
+        
+                  <div class="card-action" (click)="selectPost(post.slug)">
+                    <a class="card-action" (click)="selectPost(post.slug)">read more</a>
+                  </div>
+                  
+          </div>
+        
+            </div>
+              </div>
+        
+        
+               
+                
+        
+        
+             
+            
+        
+          
+        
+        
+     
+    
+
+  
+
+

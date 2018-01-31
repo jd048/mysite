@@ -1,0 +1,58 @@
+.message {
+    border-radius: 50px;
+    margin: 0 15px 10px;
+    padding: 15px 20px;
+    position: relative;
+    font-weight: bold;
+}
+.message.to {
+    background-color: #2095FE;
+    color: #fff;
+    margin-left: 100px;
+    text-align: right;
+}
+.message.from {
+    background-color: #E5E4E9;
+    color: #363636;
+    margin-right: 100px;
+}
+.message.to + .message.to,
+.message.from + .message.from {
+margin-top: -10px;
+}
+
+#mods{
+    position: fixed;
+    bottom: 560px;
+    right: 1000px; 
+}
+.modal { top:28% !important  ;  padding-bottom:0px !important ; height: 80% !important ; width: 100% !important ;}  /* increase the height and width as you desire */
+
+ #modal2 { top:28% !important  ;  padding-bottom:0px !important ; height: 80% !important ; width: 100% !important ;}  /* increase the height and width as you desire */
+
+
+
+  body *, * {
+    box-sizing: border-box !important;
+  }
+  
+  .chat-item {
+    background-color: #ffe1e1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    padding: 50px;
+    width: 100%;
+    overflow: hidden
+  }
+  
+  .navbar {
+    position: fixed;
+    width: 100%;
+  }
+  
+  .chat-box {
+    height: 350px;
+    overflow: auto;
+    padding: 30px 0;
+  }

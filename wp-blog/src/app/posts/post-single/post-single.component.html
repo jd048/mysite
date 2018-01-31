@@ -1,0 +1,21 @@
+
+<div class="center" >
+
+  <div *ngIf="post">
+<div class="left"   height="80">
+      <a href="#!user"><img class="circle " src="https://mannybernard.net/wp-content/uploads/2018/01/self.png"  height="35"   ></a>
+      <a href="#!name"><span class="black-text">Emmanuel Bernard </span>    </a>  <p class="right"> {{post.date | date }}</p>   
+  </div>  <br>
+      <h1>{{ post.title.rendered   }}</h1>
+  <div [innerHTML]="post.content.rendered  | sani"></div>
+
+
+
+  <app-chat></app-chat>
+  
+
+</div>
+<div *ngIf="!post">
+  no post found
+</div>
+</div>
