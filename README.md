@@ -8,7 +8,8 @@ I have alot of work that needs to get done on this site. I did most of the  code
 
 ill will post all the issues that need fixing  and  features that im planing to add. 
 
-here is the  website www.mannybernard.net. 
+ill add a sample website link later. the one i was using  is off line.
+
 
 ill update the read me later . let me know if any typos. 
 
