@@ -8,7 +8,7 @@ I have alot of work that needs to get done on this site. I did most of the  code
 
 ill will post all the issues that need fixing  and  features that im planing to add. 
 
-ill add a sample website link later. the one i was using  is off line.
+sample website link https://geek-llama.firebaseapp.com/
 
 
 ill update the read me later . let me know if any typos. 
