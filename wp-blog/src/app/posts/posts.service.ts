@@ -7,7 +7,7 @@ import { environment } from '../../environments/environment';
 @Injectable()
 export class PostsService {
 
-  private _wpBase = 'https://thatmanny.com/wp-json/wp/v2/';
+  private _wpBase = 'https://www.thatmanny.com/wp-json/wp/v2/';
 
   constructor(private http: HttpClient) { }
 
