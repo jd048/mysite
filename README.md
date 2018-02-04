@@ -10,6 +10,8 @@ ill will post all the issues that need fixing  and  features that im planing to 
 
 sample website link https://geek-llama.firebaseapp.com/
 
+contact me if you want to collaborate so I can add you on slack. 
+
 
 ill update the read me later . let me know if any typos. 
 
