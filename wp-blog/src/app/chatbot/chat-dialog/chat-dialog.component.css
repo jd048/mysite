@@ -6,7 +6,8 @@
     font-weight: bold;
 }
 .message.to {
-    background-color: #2095FE;
+/*    background-color: #2095FE;*/
+    background-color: #E57373;
     color: #fff;
     margin-left: 100px;
     text-align: right;
@@ -26,9 +27,17 @@ margin-top: -10px;
     bottom: 560px;
     right: 1000px; 
 }
-.modal { top:28% !important  ;  padding-bottom:0px !important ; height: 80% !important ; width: 100% !important ;}  /* increase the height and width as you desire */
+.modal {     padding-bottom: 0px !important;
+    height: 560px;
+    width: 370px;
+    bottom: 80px;
+    left: auto;
+    top: auto !important;
+    border-radius: 10px;
+    overflow: hidden;
+    right: 20px;}  /* increase the height and width as you desire */
 
- #modal2 { top:28% !important  ;  padding-bottom:0px !important ; height: 80% !important ; width: 100% !important ;}  /* increase the height and width as you desire */
+ #modal2 { top:74px !important  ;  padding-bottom:0px !important ; height: calc(100% - 125px)!important ;margin-bottom: 0px !important; width: 100% !important ;}  /* increase the height and width as you desire */
 
 
 
@@ -56,3 +65,61 @@ margin-top: -10px;
     overflow: auto;
     padding: 30px 0;
   }
+.input-field{
+        position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.chat-top{
+    background: #E57373 ;
+    padding: 10px 15px;
+    overflow: hidden;
+}
+.chatadminimg{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    border: 2px solid #fff;
+    float: left;
+    background: #efefef;
+}
+.chatadminimg img{
+    width: 100%;
+}
+.chat-top h2{
+        float: left;
+    width: calc(100% - 100px);
+    display: block;
+    overflow: hidden;
+    font-size: 20px;
+    color: #fff;
+    margin: 14px 0 0 10px;
+}
+.chat-top a{
+    color: #fff;
+    margin-top: 8px;
+    display: block;
+}
+.chat-top a i{
+    font-size: 36px;
+}
+.input-field .prefix{
+    right: 0px; 
+}
+.autocomplete{
+        margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 70px !important;
+    width: calc(100% - 70px) !important;
+    padding-left: 15px !important;
+    border: none !important;
+}
+.input-field label{
+    margin-left: 0px !important;
+} 
+.modal-overlay{
+	opacity: 0 !important;
+}
